@@ -227,6 +227,7 @@ section.success {
 }
 #portfolio .portfolio-item .portfolio-link .caption:hover {
   opacity: 1;
+  background-color: #428691;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
   position: absolute;
@@ -347,7 +348,7 @@ footer .footer-below {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #1a242f;
+  background-color: #428691;
   border-color: #161f29;
 }
 .btn-primary:active,
@@ -390,7 +391,7 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-success {
   color: white;
   background-color: #428691;
-  border-color: #11866f;
+  border-color: #428691;
 }
 .btn-success:active,
 .btn-success.active,
@@ -480,7 +481,7 @@ fieldset[disabled] .btn-success.active {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #2C3E50;
+  background-color: #428691;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
