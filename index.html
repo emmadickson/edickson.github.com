@@ -1,369 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>i.love.netart</title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <!-- Bootstrap core CSS -->
-  <link href="bootstrap.min.css" rel="stylesheet">
-  <style>
-    html, body {
-      width:  100%;
-      height: 100%;
-      margin: 0px;
-    }
-    body {
-      background: #1c2e40;
-      overflow: hidden;
-      border:0;
-      padding:0;
-    }
-    canvas{
-      position: absolute;;
-      top:0;
-      left:0;
-    }
-  </style>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
+<body>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#logo-container" class="brand-logo"><i class="material-icons">save</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#info">Info</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
 
-<body id="body">
-  <canvas id=canvas1></td>
-</body>
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#info"><i class="material-icons">save</i></a></li>
+        <li><a href="#info">Info</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner" style="height: 550px; background-image: url('images/header.jpg')">
+    <div class="container">
+      <br><br>
+      <h1 class="header center orange-text">Starter Gay</h1>
+      <br><br>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src=drawlib1.js></script>
-<script src=M.js></script>
-<script src=S.js></script>
-<script>
+    </div>
+  </div>
 
-  var m = [0,0,0,0, 0,0,0,0, 0,0,0,0, 0,0,0,0,];
-  var birds = [];
-  var canvas = document.getElementById('canvas1');
-  context = canvas.getContext('2d');
-  linkWidth = 0;
-  context.canvas.width  = window.innerWidth;
-  context.canvas.height = window.innerHeight;
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m12">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">info</i></h2>
+            <h4 id="info" style="border-bottom: 3px solid #f4c842;">Info</h4>
+            <p class="left light">I'm intrigued by data and the ways in which it shapes our lives. I have a strong interest in digital art and time Baed Media nad executed the 2016-2017 restoration of <a href="http://brandon.guggenheim.org/">BRANDON</a> a 1998-99 piece of netart by Shu Lea CHeang. My personal projects tend to focus on the conservation/creation of digital art and I'm employed as a Data Scientist/Developer with IBM</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m6">
+            <h6 style="border-bottom: 1px solid #f4c842;">Specialties</h6>
+            <ul>
+              <li>Big Data Analytics</li>
+              <li>Data Science</li>
+              <li>Natural Language Processing</li>
+              <li>Conservation of Digital Born Art</li>
+            </ul>
+          </div>
+          <div class="col s12 m6">
+            <h6 style="border-bottom: 1px solid #f4c842;">Articles</h6>
+            <p class="light"><a href="https://www.guggenheim.org/blogs/checklist/restoring-brandon-shu-lea-cheangs-early-web-artwork">Restoring Brandon, Shu Lea Cheang’s Early Web Artwork</a></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s14 m1" style="height:20px; width:16.6%; background-color: rgb(0,0,0)"></div>
+          <div class="col s14 m1" style="height:20px; width:16.6%; background-color: rgb(50,50,50)"></div>
+          <div class="col s14 m1" style="height:20px; width:16.6%; background-color: rgb(87,87,87)"></div>
+          <div class="col s14 m1" style="height:20px; width:16.6%; background-color: rgb(162,162,162)"></div>
+          <div class="col s14 m1" style="height:20px; width:16.6%; background-color: rgb(209,209,209)"></div>
+          <div class="col s14 m1" style="height:20px; width:16.6%; background-color: rgb(245,245,245)"></div>
+        </div>
+        <div class="row">
+          <div class="col s14 m12">
+            <div class="icon-block">
+              <h2 class="center light-blue-text"><i class="material-icons">code</i></h2>
+              <h4 id="work" style="border-bottom: 3px solid #f4425c;">Work</h4>
+              <p class="light">I work very hard and I'm enthusiastic.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m12">
+            <h5 class="right-align" style="border-bottom: 2px solid #03a9f4">Technical Work</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m6">
+            <h6 style="font-style:italic; border-bottom: 1px solid #03a9f4">IBM: Data Insights Squad</h6>
+            <p>I work as a Data Scientist focusing on finding ways to implement better Agile practices based on company wide tool usage.</p>
+          </div>
+          <div class="col s12 m6">
+            <h6 style="font-style:italic; border-bottom: 1px solid #03a9f4">IBM: Extreme Blue</h6>
+            <p>Over the course of this internship I worked intensively with a team of interns and an MBA to develop and pitch a product to upper level executives within IBM. In the process I gained extensive knowledge of mining and analyzing text at scale, graph databases and microservice development.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m12">
+            <h5 class="right-align" style="border-bottom: 2px solid #f4425c">Conservation</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m6">
+            <h6 style="font-style:italic; border-bottom: 1px solid #f4425c">BRANDON</h6>
+          <p>I executed the 2016-2017 Resotration of <a href="brandon.guggenheim.org">BRANDON</a> for the Guggenheim. In doing so I migrated old web technologies to new HTML, css and js elements and implemented a new method of digital conservation documentation. Visit the restored site it's really great!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m12">
+            <h5 class="right-align" style="border-bottom: 2px solid #f4c842">Projects</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m6">
+            <h6 style="font-style:italic; border-bottom: 1px solid #f4c842">Mixed Connections</h6>
+            <p><a href="https://mixed-connection.herokuapp.com/">Mixed Connections</a> combines and scrambles real craigslist missed connections posts with creative fiction to create recombinant narrative exploring identity and longing on the net.</p>
+          </div>
+          <div class="col s12 m6">
+            <h6 style="font-style:italic; border-bottom: 1px solid #f4c842">Waive your rights away</h6>
+            <p>A game about wavers and quick decisions. Made as part of a team for the 2017 global game jam I had a lot of fun creating <a href="https://github.com/emmadickson/Global-Game-Jam-2017">Waive your rights away </a> and it's unfortunatley very topical!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m6">
+            <h6 style="font-style:italic; border-bottom: 1px solid #f4c842">Haiku Generator</h6>
+            <p>The Haiku Generator is a chrome plugin meant to be used on news sites. Click the icon and recieve a summary of the news in the form of a haiku. If you're lucky it'll be less depressing than the actual news. The haikus are generated using natural language processing summarizing algorithms and syllable counting. Download it <a href="https://github.com/emmadickson/Haiku-Generator">here</a> or read a paper about the methods <a href="https://emmadickson.github.io/edickson/docs/Haiku.pdf">here</a></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s14 m1" style="height:20px; width:16.6%; background-color: rgb(0,0,0)"></div>
+          <div class="col s14 m1" style="height:20px; width:16.6%; background-color: rgb(50,50,50)"></div>
+          <div class="col s14 m1" style="height:20px; width:16.6%; background-color: rgb(87,87,87)"></div>
+          <div class="col s14 m1" style="height:20px; width:16.6%; background-color: rgb(162,162,162)"></div>
+          <div class="col s14 m1" style="height:20px; width:16.6%; background-color: rgb(209,209,209)"></div>
+          <div class="col s14 m1" style="height:20px; width:16.6%; background-color: rgb(245,245,245)"></div>
+        </div>
 
+        <div class="col s15 m12">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">call</i></h2>
+            <h4 id="contact" style="border-bottom: 3px solid #03a9f4">Contact</h4>
+            <div class="row">
+              <div class="col s12 m6">
+                <h6 style="">Have a project for me? Get in touch:<br><br>emma.jk.dickson@gmail.com</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-  function rotateX(m, radians){
-   rotation = [1, 0, 0, 0,
-               0, Math.cos(radians), Math.sin(radians), 0,
-         0, -1*Math.sin(radians), Math.cos(radians), 0,
-         0, 0, 0, 1];
-   m = matrixMultiply(m, rotation, m);
-   return m;
-  }
+    </div>
+    <br><br>
+  </div>
 
-  function matrixMultiply(a, b, dst) {
-     var n, tmp = [];
-     // PUT THE RESULT OF a x b INTO TEMPORARY MATRIX tmp.
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
 
-     for (n = 0 ; n < 16 ; n++)
-        tmp.push( a[n&3     ] * b[    n&12] +
-                  a[n&3 |  4] * b[1 | n&12] +
-                  a[n&3 |  8] * b[2 | n&12] +
-                  a[n&3 | 12] * b[3 | n&12] );
-
-     // COPY tmp VALUES INTO DESTINATION MATRIX dst.
-
-     for (n = 0 ; n < 16 ; n++)
-        dst[n] = tmp[n];
-     return dst;
-  }
-
-  function initialFlock(num, posx, posy) {
-    for (i = 0 ; i < num ; i++){
-      var bird = new Shape(posx, posy);
-      birds.push(bird)
-    }
-  }
-
-  // Links
-  var Links = new Array(); // Links information
-  var hoverLink = ""; // Href of the link which cursor points at
-  context.fillStyle = "#0000ff"; // Default blue link color
-  context.font = "36px Courier New"; // Monospace font for links
-  context.textBaseline = "top"; // Makes left top point a start point for rendering text
-
-  // Draw the link
-  function drawLink(x,y,href,title){
-      var linkTitle = title,
-          linkX = x,
-          linkY = y,
-          linkWidth = context.measureText(linkTitle).width,
-          linkHeight = parseInt(context.font); // Get lineheight out of fontsize
-
-      // Draw the link
-      context.fillText(linkTitle, linkX, linkY);
-
-      // Underline the link (you can delete this block)
-      context.beginPath();
-      context.moveTo(linkX, linkY + linkHeight);
-      context.lineTo(linkX + linkWidth, linkY + linkHeight);
-      context.lineWidth = 1;
-      context.strokeStyle = "#0000ff";
-      context.stroke();
-
-      // Add mouse listeners
-      canvas.addEventListener("mousemove", on_mousemove, false);
-      canvas.addEventListener("click", on_click, false);
-
-      // Add link params to array
-      Links.push(x + ";" + y + ";" + linkWidth + ";" + linkHeight + ";" + href);
-  }
-
-  // Link hover
-  function on_mousemove (ev) {
-      var x, y;
-
-      // Get the mouse position relative to the canvas element
-      if (ev.layerX || ev.layerX == 0) { // For Firefox
-          x = ev.layerX;
-          y = ev.layerY;
-      }
-
-      // Link hover
-      for (var i = Links.length - 1; i >= 0; i--) {
-          var params = new Array();
-
-          // Get link params back from array
-          params = Links[i].split(";");
-
-          var linkX = parseInt(params[0]),
-              linkY = parseInt(params[1]),
-              linkWidth = parseInt(params[2]),
-              linkHeight = parseInt(params[3]),
-              linkHref = params[4];
-
-          // Check if cursor is in the link area
-          if (x >= linkX && x <= (linkX + linkWidth) && y >= (linkY - linkHeight)  && y <= (linkY + linkHeight)){
-              document.body.style.cursor = "pointer";
-              hoverLink = linkHref;
-              break;
-          }
-          else {
-              document.body.style.cursor = "";
-              hoverLink = "";
-          }
-      };
-  }
-
-  // Link click
-  function on_click(e) {
-      if (hoverLink){
-          //window.open(hoverLink); // Use this to open in new tab
-          window.location = hoverLink; // Use this to open in current window
-      }
-  }
-
-  function updatePosition(birds){
-    context.clearRect(0, 0, canvas.width, canvas.height);
-    context.font="36px Courier New";
-    context.fillStyle = "#77b5ab";
-    var width = canvas.width/2 -130;
-    console.log(width)
-    drawLink(width,canvas.height/2,"about.html","Emma Dickson");
-    for (var i = 0; i < birds.length; i++){
-
-        if (birds[i].flag = true && birds[i].PositionY < context.canvas.height && birds[i].PositionY > -context.canvas.height || birds[i].PositionX < context.canvas.width && birds[i].PositionX > -context.canvas.width){
-          M.identity(birds[i].array);
-          M.scale(birds[i].array, birds[i].randomScale);
-
-          birds[i].PositionX = parseInt(birds[i].PositionX) + birds[i].speed * birds[i].DirectionX;
-          birds[i].PositionY = parseInt(birds[i].PositionY) + birds[i].speed * birds[i].DirectionY;
-        }
-        else{
-          console.log('dead man walkin')
-          birds[i].flag = true;
-        }
-      birds[i].array = rotateX(birds[i].array, Math.sin(2));
-      drawCurves(birds[i].array, S.parametricMesh(S.sphere, birds[i].circleParam1, birds[i].circleParam2), birds[i]);
-    }
-  }
-
-  function draw(){
-    for (var i = 0; i < birds.length; i++){
-      M.identity(birds[i].array);
-      M.scale(birds[i].array, birds[i].randomScale);
-      birds[i].array = rotateX(birds[i].array, Math.sin(2));
-      drawCurves(birds[i].array, S.parametricMesh(S.sphere, birds[i].circleParam1, birds[i].circleParam2), birds[i]);
-    }
-  }
-
-  function drawCurves(m, C, bird) {
-     var i, n, p, cv, x, y, z, fl =5,
-     w = canvas.width;
-     h = canvas.height
-     // LOOP THROUGH CURVES.
-
-     for (n = 0 ; n < C.length ; n++) {
-        // BUILD THE PROJECTED CURVE, POINT BY POINT.
-        cv = [];
-        for (i = 0 ; i < C[n].length ; i++) {
-           // TRANSFORM POINT
-           p = M.transform(m, C[n][i]);
-
-           // RETRIEVE COORDINATES FROM TRANSFORMED POINT
-           x = p[0];
-           y = p[1];
-           z = p[2];
-
-           // DO PERSPECTIVE TRANSFORM
-
-         // DO VIEWPORT TRANSFORM
-
-         x =  w * x * .5 + .5 * w;
-         y = -w * y * .5 + .5 * h;
-
-         x = x + parseInt(bird.PositionX);
-         y = y + parseInt(bird.PositionY);
-
-         cv.push([x, y]);
-       }
-
-       // DRAW THE PROJECTED CURVE ONTO THE CANVAS.
-
-       context.beginPath();
-       context.moveTo(cv[0][0], cv[0][1]);
-       for (i = 1 ; i < cv.length ; i++)
-           context.lineTo(cv[i][0], cv[i][1]);
-
-           // Purple tone
-           if (bird.colorTone == 1){
-             var red = Math.floor((Math.random() * 100) + 75);
-             var green = Math.floor((Math.random() * 100) + 0);
-             var blue = Math.floor((Math.random() * 100) + 145);
-             var colour = 'rgb(' + red + ',' + green + ',' + blue + ')';
-             context.strokeStyle=colour;
-           }
-
-           // Red tone
-           if (bird.colorTone == 2){
-             var red = Math.floor((Math.random() * 100) + 75);
-             var green = Math.floor((Math.random() * 100) + 0);
-             var blue = Math.floor((Math.random() * 100) + 0);
-             var colour = 'rgb(' + red + ',' + green + ',' + blue + ')';
-             context.strokeStyle=colour;
-           }
-
-           // Blue tone
-           if (bird.colorTone == 3){
-             var red = Math.floor((Math.random() * 100) + 0);
-             var green = Math.floor((Math.random() * 100) + 0);
-             var blue = Math.floor((Math.random() * 100) + 145);
-             var colour = 'rgb(' + red + ',' + green + ',' + blue + ')';
-             context.strokeStyle=colour;
-           }
-
-           // yellow tone
-           if (bird.colorTone == 4){
-             var red = Math.floor((Math.random() * 100) + 145);
-             var green = Math.floor((Math.random() * 100) + 60);
-             var blue = Math.floor((Math.random() * 100) + 10);
-             var colour = 'rgb(' + red + ',' + green + ',' + blue + ')';
-             context.strokeStyle=colour;
-           }
-
-           context.stroke();
-     }
-
-   }
-
-  Shape = function(posx, posy) {
-     this.randomScale = (Math.random() * (0.3- (-0.0200)) + (-0.0200)).toFixed(4);
-     this.flag = false;
-     if (posx == 0 & posy == 0){
-       this.PositionX = (Math.random() * (500.0 - (-500.0)) + (-500.0)).toFixed(4)
-       this.PositionY = (Math.random() * (200.0 - (-200.0)) + (-200.0)).toFixed(4)
-       this.speed = (Math.random() * (6 - (3)) + (3));
-       if (this.PositionX < 0){
-         this.DirectionX = -1;
-       }
-       if (this.PositionX > 0){
-         this.DirectionX = 1;
-       }
-       if (this.PositionY < 0){
-         this.DirectionY = -1;
-       }
-       if (this.PositionY > 0){
-         this.DirectionY = 1;
-       }
-     }
-     else{
-       this.PositionX = posx;
-       this.PositionY = posy;
-       this.speed = (Math.random() * (3 - (2)) + (2));
-       if (this.PositionX < 0){
-         this.DirectionX = -1;
-       }
-       if (this.PositionX > 0){
-         this.DirectionX = 1;
-       }
-       if (this.PositionY < 0){
-         this.DirectionY = -1;
-       }
-       if (this.PositionY > 0){
-         this.DirectionY = 1;
-       }
-     }
-
-     this.circleParam1 = (Math.random() * (30 - (5)) + (5));
-     this.circleParam2 = (Math.random() * (30 - (5)) + (5));
-     var tone = Math.round((Math.random() * (4 - (1)) + (1)));
-
-     this.colorTone = tone;
-     this.array = m;
-  }
-
-  function getMousePos(canvas, evt) {
-    var rect = canvas.getBoundingClientRect();
-    return {
-      x: evt.clientX - rect.left - canvas.width/2,
-      y: evt.clientY - rect.top - canvas.height/2
-    };
-  }
-
-  var num = 12;
-  initialFlock(num,0,0);
-  draw();
-
-  setInterval(function(){
-    context = canvas.getContext('2d');
-    context.canvas.width  = window.innerWidth;
-    context.canvas.height = window.innerHeight;
-    updatePosition(birds);
-
-  },100)
-
-  document.getElementById("canvas1").onclick = function(e){
-    var pos = getMousePos(canvas, e);
-    var posx = pos.x;
-    var posy = pos.y;
-    var flag = false;
-    // When mouse is button is down, select a key point if cursor gets near it.
-    for (var i = 0; i < birds.length; i++){
-      if (birds[i].PositionX >= posx-30 && birds[i].PositionX <= posx+30 && birds[i].PositionY >= posy-30 && birds[i].PositionY <= posy+30){
-        birds[i].array = [];
-        birds[i].flag = true;
-        birds[i].colorTone = birds[i].colorTone + 1;
-
-        if (birds[i].colorTone > 4){
-          birds[i].colorTone = 1;
-        }
-        flag = true;
-      }
-
-    }
-    if (flag == false){
-      var num = 1;
-      initialFlock(num, posx, posy);
-      draw();
-    }
-
-  };
-
-</script>
+  </body>
+</html>
