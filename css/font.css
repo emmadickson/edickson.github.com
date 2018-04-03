@@ -1,15 +1,7 @@
 @font-face {
  font-family: Chicago;
- src: url('../fonts/Chicago.woff')
+ src: url('../fonts/Chicago.ttf')
 }
 
-a {
-  text-decoration: none;
-}
-
-html {
-  line-height: 1.5;
-  font-family: "Chicago";
-  font-weight: normal;
-  color: rgba(0, 0, 0, 0.87);
-}
+h1 { font-family: Arial, serif; } /* basic system font */
+.fontsloaded h1 { font-family:  'Chicago', serif; } /* custom system font */
