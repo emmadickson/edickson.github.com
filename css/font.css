@@ -1,6 +1,6 @@
 @font-face {
  font-family: Chicago;
- src: url('../fonts/Chicago.ttf')
+ src: url('../fonts/Chicago.woff')
 }
 
 h1 { font-family: Arial, serif; } /* basic system font */
