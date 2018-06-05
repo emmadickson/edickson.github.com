@@ -1,0 +1,19 @@
+# Site settings
+title: emmadickson.info
+email: emma.jk.dickson@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  I'm intrigued by data and the ways in which it shapes our lives.
+  I love working with Time Based Media, especially digital art, and executed
+  the 2016-2017 restoration of BRANDON a 1998-1999 piece of netart by
+  Shu Lea Cheang. My personal projects tend to focus on the
+  conservation/creation of net art, I'm an active skater with
+  Bull City Roller Derby and I'm employed as a Data Scientist/Developer with IBM.
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "http://www.emmadickson.info" # the base hostname & protocol for your site
+twitter_username: emmamofodickson
+github_username:  emmadickson
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
