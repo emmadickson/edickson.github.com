@@ -1,5 +1,5 @@
 ---
-title: Emma Dickson
+title: i.love.netart
 layout: default
 ---
 
