@@ -1,5 +1,5 @@
 ---
-title: i.love.netart
+title: Emma Dickson
 layout: index
 ---
 

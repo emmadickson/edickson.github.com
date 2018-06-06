@@ -1,5 +1,5 @@
 ---
-title: i.work.hard
+title: Emma DIckson
 layout: portfolio
 ---
 
