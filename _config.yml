@@ -1,13 +1,21 @@
 # Site settings
 title: Emma Dickson
 email: emma.jk.dickson@gmail.com
+author: Emma Dickson
+logo: images/header.png
 description: > # this means to ignore newlines until "baseurl:"
   Emma Dickson's a Data Scientist/Software Developer who wants to work on interesting Data Science projects and conserve digital art
 baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "http://www.emmadickson.info" # the base hostname & protocol for your site
-twitter_username: emmamofodickson
+url: http://www.emmadickson.info # the base hostname & protocol for your site
+twitter:
+  username: emmamofodickson
+  card: summary
 github_username:  emmadickson
-
+social:
+  name: Emma Dickson
+  links:
+    - https://github.com/emmadickson
+    - https://www.linkedin.com/in/emma-dickson-86b1b499/
 # Build settings
 markdown: kramdown
 plugins:
