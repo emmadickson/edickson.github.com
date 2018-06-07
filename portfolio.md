@@ -1,5 +1,5 @@
 ---
-title: Emma DIckson
+title: Emma Dickson
 layout: portfolio
 ---
 
