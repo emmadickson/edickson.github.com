@@ -1,3 +1,10 @@
-source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
-gem 'jekyll-seo-tag', group: :jekyll_plugins
+
+source "https://rubygems.org"
+
+gem "github-pages", group: :jekyll_plugins
+
+# If you have any plugins, put them here!
+group :jekyll_plugins do
+  gem 'jekyll-seo-tag'
+end
+
