@@ -1,3 +1,4 @@
+
 name: Emma Dickson
 title: Emma Dickson
 description: Emma Dickson's a Data Scientist/Engineer who wants to work on interesting projects and conserve digital art.
@@ -5,6 +6,12 @@ url: www.emmadickson.info
 author: Emma Dickson
 image: images/me.png
 logo: images/header.png
+email: emma.jk.dickson@gmail.com
+twitter:
+  username: emmamofodickson
+  card: summary
+github_username:  emmadickson
+
 social:
   name: Emma Dickson
   links:
@@ -12,3 +19,8 @@ social:
     - https://www.linkedin.com/in/emma-dickson-86b1b499/
 
 markdown: kramdown
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
