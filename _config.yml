@@ -1,7 +1,7 @@
 name: Emma Dickson
 title: Emma Dickson
-url: www.emmadickson.info
-description: Emma Dickson is a Data Engineer/TBM Technician/Artist.
+url: https://emmadickson.info/
+description: Emma Dickson is a Data Engineer, TBM Technician and Artist.
 author: Emma Dickson
 image: images/me.jpg
 social:
@@ -9,8 +9,6 @@ social:
   links:
     - https://www.linkedin.com/in/emma-dickson-86b1b499/
     - https://github.com/emmadickson
-
-google_site_verification: UA-116279820-1
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
