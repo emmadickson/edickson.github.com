@@ -58,7 +58,7 @@
       <div class="row">
         <div class="col s12 m4">
         </div>
-  <div class="col s12 m4" id="index-banner" style="height: 700px; width:100%; background-size: cover; background-repeat: no-repeat; background-image: url('assets/images/header.gif')">
+  <div class="col s12 m4" id="index-banner" style="height: 450px; width:100%; background-size: cover; background-repeat: no-repeat; background-image: url('assets/images/header.gif')">
     <div class="container">
       <br><br>
       <h1 class="header center" style="font-family: 'Chicago'; color: white;" id="title">Emma Dickson</h1>
@@ -370,56 +370,62 @@
       </div>
 
       <div class="row">
-        <div class="col s12 m4" >
-          <p>First in the series. This sculpture also has a cassette tape running.</p>
+        <p>First in the series. This sculpture also has a cassette tape running.</p>
+
+        <div class="col s12 m6" >
+            <img src="assets/images/closed_circuit_1.gif"  height=360px style="width:100%" />
         </div>
 
-        <div class="col s12 m8" >
-            <div class="carousel carousel-slider center" style="width:70%">
+        <div class="col s12 m6" style="height: 360px; ">
+            <div class="carousel carousel-slider center" style="height: 360px; width:100%">
               <div class="carousel-item red white-text" href="#one!" />
-                <img src="assets/images/closed_circuit_1.1.jpeg"  height=600px />
+                <img src="assets/images/closed_circuit_1.1.jpeg"  />
               </div>
               <div class="carousel-item amber white-text" href="#two!" >
-                <img src="assets/images/closed_circuit_1.2.jpeg" height=600px />
+                <img src="assets/images/closed_circuit_1.2.jpeg"  />
               </div>
               <div class="carousel-item green white-text" href="#three!" >
-                <img src="assets/images/closed_circuit_1.3.jpeg"  height=600px />
+                <img src="assets/images/closed_circuit_1.3.jpeg" />
               </div>
               <div class="carousel-item blue white-text" href="#four!">
-                <img src="assets/images/closed_circuit_1.4.jpeg"   height=600px />
+                <img src="assets/images/closed_circuit_1.4.jpeg" />
             </div>
           </div>
       </div>
+    
+      <div class="row"></div>
 
       <div class="row">
           <h6 class="left-align" style="font-style:italic; border-bottom: 1px solid rgb(185,252,101) ">Closed Circuit #2</h6>
       </div>
 
       <div class="row">
-
-        <div class="col s12 m4" >
         <p>Second in the series. This has a custom 'double yoke'.</p>
-       </div>
 
-        <div class="col s12 m8" >
-            <div class="carousel carousel-slider center" style="width:70%">
+        <div class="col s12 m6" >
+            <img src="assets/images/closed_circuit_2.gif"  height=360px style="width:100%" />
+        </div>
+
+
+        <div class="col s12 m6" style="height: 360px; ">            
+          <div class="carousel carousel-slider center" style="height: 360px; width:100%">
                 <div class="carousel-item red white-text" href="#one!">
-                  <img src="assets/images/closed_circuit_2.1.jpeg" height=600px />
+                  <img src="assets/images/closed_circuit_2.1.jpeg" />
                 </div>
                 <div class="carousel-item amber white-text" href="#two!">
-                  <img src="assets/images/closed_circuit_2.2.jpeg"  height=600px />
+                  <img src="assets/images/closed_circuit_2.2.jpeg" />
                 </div>
                 <div class="carousel-item green white-text" href="#three!">
-                  <img src="assets/images/closed_circuit_2.3.jpeg" height=600px />
+                  <img src="assets/images/closed_circuit_2.3.jpeg" />
                 </div>
                 <div class="carousel-item blue white-text" href="#four!">
-                  <img src="assets/images/closed_circuit_2.4.jpeg"height=600px />
+                  <img src="assets/images/closed_circuit_2.4.jpeg"/>
                 </div>
                 <div class="carousel-item blue white-text" href="#five!">
-                  <img src="assets/images/closed_circuit_2.5.jpeg" height=600px />
+                  <img src="assets/images/closed_circuit_2.5.jpeg"/>
                 </div>
                 <div class="carousel-item blue white-text" href="#six!">
-                  <img src="assets/images/closed_circuit_2.6.jpeg" height=600px />
+                  <img src="assets/images/closed_circuit_2.6.jpeg" />
                 </div>
               </div>
           </div>
@@ -500,13 +506,6 @@
   <script src="assets/js/materialize.min.js"></script>
   <script src="assets/js/init.min.js"></script>
   <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.carousel.carousel-slider');
-    var instances = M.Carousel.init(elems, options);
-  });
-
-  // Or with jQuery
-
   $(document).ready(function(){
     $('.carousel.carousel-slider').carousel();
   });
